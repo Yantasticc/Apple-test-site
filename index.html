@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw982/SFnGE8fJT3GXwEOngsV7Zt274NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIA5qVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi66jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn6389aCwo6qbBJiSnjAK/l8WvCWPIPm149" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh42IMqE241rYiqJxyMiZ56OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Apple Test Site| Yash Kalamkhede</title>
+</head>
+<body>
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html" class="active">home</a>
+            <a href="./about.html">about</a>
+            <a href="./menu.html">menu</a>
+            <a href="./products.html">products</a>
+            <a href="./review.html">review</a>
+            <a href="./contact.html">contact</a>
+            <a href="./blog.html">news</a>
+        </nav>
+        <div class="buttons btn-dark btn-lg download-button">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/iPhone14Pro.png" alt="menu">
+                <div class="content">
+                    <h3>iPhone 14 Pro</h3>
+                    <div class="price">$999.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/iPhone13.png" alt="menu">
+                <div class="content">
+                    <h3>iPhone 13</h3>
+                    <div class="price">$599.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/MacBookPro13.png" alt="menu">
+                <div class="content">
+                    <h3>MacBook Pro 13</h3>
+                    <div class="price">$1299.99 </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/MacBookAir.png" alt="menu">
+                <div class="content">
+                    <h3>MacBook Pro Air</h3>
+                    <div class="price">$1199.99 </div>
+                </div>
+            </div>
+            <a href="#" class="btn">check out </a>
+        </div>
+    </header>
+    <!---------------------------------------------HEADER SECTION -->
+
+    <!---------------------------------------------HOME SECTION -->
+    <section class="home" id="home">
+        <div class="content">
+        <h3>Apple</h3>
+        <p>Our goal is to design and develop innovative technology products and services that enhance and simplify customers' lives.</p>
+        <a href="#" class="btn">order now</a>
+        </div>
+    </section>
+    <!---------------------------------------------HOME SECTION -->
+    
+    <!---------------------------------------------MENU SECTION -->
+    <section class="menu" id="menu">
+        <h1 class="heading">Our <span>Iphone's</span></h1>
+        <div class="box-container">
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/iPhone14Pro.png" alt="">
+                    <span class="menu-category">iPhone</span>
+                    <h3>iPhone 14 Pro</h3>
+                    <div class="price">$999.99 <span>$1100.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/iPhone14.png" alt="">
+                    <span class="menu-category">iPhone</span>
+                    <h3>iPhone 14</h3>
+                    <div class="price">$799.99 <span>$850.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/iPhone13.png" alt="">
+                    <span class="menu-category">iPhone</span>
+                    <h3>iPhone 13</h3>
+                    <div class="price">$599.99 <span>$650.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/iPhoneSE.png" alt="">
+                    <span class="menu-category">iPhone</span>
+                    <h3>iPhone SE</h3>
+                    <div class="price">$429.99 <span>$550.99</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------MENU SECTION -->
+
+
+    <!---------------------------------------------PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <h1 class="heading">OUR <span>MacBooks</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">iMac</span>
+                    <a href="#" class="name">MacBook Pro 16''</a>
+                </div>
+                <div class="image">
+                    <img src="./image/MacBookPro16.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$1999.00</b>
+                        <span class="amount">Apple M1 Pro chip / Apple M1 Max chip</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">iMac</span>
+                    <a href="#" class="name">MacBook Pro 13''</a>
+                </div>
+                <div class="image">
+                    <img src="./image/MacBookPro13.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$1299.00</b>
+                        <span class="amount">Apple M2 chip</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">iMac</span>
+                    <a href="#" class="name">MacBook Pro Air</a>
+                </div>
+                <div class="image">
+                    <img src="./image/MacBookAir.png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">$1199.00</b>
+                        <span class="amount">Apple M2 chip</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------PRODUCTS SECTION -->
+        
+    <!---------------------------------------------ABOUT US SECTION -->
+    <section class="about" id="about">
+        <h1 class="heading">about <span>us</span> </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./image/TimCook.png" alt="">
+            </div>
+            <div class="content">
+                <h3>What is the secret of our products</h3>
+                <div class="paragraph">
+                    <p>Apple products are known for their sleek and intuitive design. Apple puts a lot of effort into the aesthetic and user experience of their products, which has contributed to their popularity.</p>
+                    <p>Apple products are also known for their reliability and durability. Customers trust that they will be able to use Apple products for a long time without them breaking or experiencing technical issues.</p>
+                    <p>Apple has also been successful in building a strong brand identity and creating a loyal customer base. Apple products are often considered a status symbol, and the company has done a good job of cultivating a community of devoted followers.</p>
+                </div>
+                    <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------ABOUT US SECTION -->
+    
+    <!---------------------------------------------REVIEW SECTION -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/review1.png" alt="quote">
+                <p> I think IPhone really is the best phone, it's fast, interface is looking good, unique, I am their customer for years now, but I never had a good experience with their customer support, according to other comments here, most of us didn't had. Still I like Apple's devices and I prefer buying them, especially when it comes to phones...</p>
+                <img src="./image/user1.png" alt="customer-avatar" class="user">
+                <h3>Patrick Hellinger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/review2.png" alt="quote">
+                <p>I purchased their apple watch series 6 nike edition, it has been very helpful in my workouts, and also helps me read my text messages without getting the phone out of my pocket. The bands are also very strong and durable, not a scratch so far. Integrates well with the rest of my apple products including an imac and an iphone xs max.</p>
+                <img src="./image/user2.png" alt="customer-avatar" class="user">
+                <h3>Serena Williams</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/review3.png" alt="quote">
+                <p>Overall, I think Apple's Iphone's are really good. Qualliy is really high and you can use one device for couple of years, I didn't had that kind an experience with other phones, usally year and half and something breaks down. One think that Iphone is behind is camera, Samsung is really stepping up in that game same as Huawei. I am not saying that Iphone has bad camera, but there are better ones.</p>
+                <img src="./image/user3.png" alt="customer-avatar" class="user">
+                <h3>Helen Marksen</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!---------------------------------------------REVIEW SECTION -->
+    <!---------------------------------------------CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact <span>us</span> </h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12689.328712973129!2d-122.008972!3d37.3346438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3b0d8391510688f0!2sApple%20Park!5e0!3m2!1sen!2sin!4v1672677091329!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+    </section>
+    <!---------------------------------------------CONTACT SECTION -->
+
+    <!---------------------------------------------BLOG SECTION -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Apple <span>News</span> </h1>
+        <div class="box-container">
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/Blog1.png" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Apple launches Freeform: a powerful new app designed for creative brainstorming and collaboration</a>
+                    <span>UPDATE / December 13, 2022</span>
+                    <p>Freeform is an all-new app available starting today, included in the latest versions of iOS, iPadOS, and macOS. Freeform helps users organise and visually lay out content on a flexible canvas, giving them the ability to see, share, and collaborate all in one place without worrying about layouts or page sizes.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/Blog2.png" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Apple celebrates the holiday season: This year’s Holiday Gift Guide features the most innovative lineup ever of iPhone, iPad, Mac, Apple Watch, AirPods, and more</a>
+                    <span>UPDATE / December 12, 2022</span>
+                    <p>Apple is ringing in the holidays at Apple Store locations and apple.com. Starting today, customers can explore the Holiday Gift Guide online and discover how Apple’s innovative products and world-class services keep users connected with friends and family during the holidays.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/Blog3.png" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Apple introduces Apple Music Sing: Apple Music expands its world-class lyrics experience with a new feature for fans to easily sing along to tens of millions of songs</a>
+                    <span>PRESS RELEASE / December 6, 2022</span>
+                    <p>Apple today announced Apple Music Sing, an exciting new feature that allows users to sing along to their favourite songs with adjustable vocals1 and real-time lyrics. Apple Music Sing offers multiple lyric views to help fans take the lead, perform duets, sing backup, and more — all integrated within Apple Music’s unparalleled lyrics experience. </p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------BLOG SECTION -->
+    
+    <!---------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="btn btn-primary btn-dark btn-lg download-button">search</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blog">news</a>
+        </div>
+        <div class="credit">
+            created by <span>Yash Kalamkhede</span> | all rights reserved!
+        </div>
+    </section>
+    <!---------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+</body>
+</html>
